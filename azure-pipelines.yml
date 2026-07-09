@@ -87,3 +87,35 @@ stages:
               slotName: 'staging-qa'
 
               package: '$(Pipeline.Workspace)/drop/**/*.zip'
+
+# ============================
+# DEPLOY TO PRODUCTION
+# ============================
+- stage: DeployProd
+  displayName: Deploy to Production
+  dependsOn: DeployQA
+
+  jobs:
+
+  - deployment: ProdDeploy
+
+    environment: Production
+
+    strategy:
+      runOnce:
+
+        deploy:
+
+          steps:
+
+          - download: current
+            artifact: drop
+
+          - task: AzureWebApp@1
+            inputs:
+              azureSubscription: 'myservice-connection'
+              appType: 'webApp'
+
+              appName: 'resource-166'
+
+              package: '$(Pipeline.Workspace)/drop/**/*.zip'
