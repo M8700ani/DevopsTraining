@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DemoLogicApp\\DemoLogicApp\\DemoLogicApp.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\Azure Demos\\Demo\\LogictestHouse\\DemoLogicApp\\DemoLogicApp.csproj",
       "projectName": "DemoLogicApp",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\DemoLogicApp\\DemoLogicApp\\DemoLogicApp.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\Azure Demos\\Demo\\LogictestHouse\\DemoLogicApp\\DemoLogicApp.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\DemoLogicApp\\DemoLogicApp\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\Azure Demos\\Demo\\LogictestHouse\\DemoLogicApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
